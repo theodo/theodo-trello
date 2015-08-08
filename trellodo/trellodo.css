@@ -1,7 +1,80 @@
+/* Custom Theodo CSS: credit https://github.com/tuxosaurus */
+body .list-card-labels {
+  float: right;
+  top: -2px;
+  right: -6px;
+  max-width: 200px;
+  margin: 0;
+  text-align: right;
+}
+
+body .list-card-labels .card-label {
+  float: right;
+  width: auto;
+  max-width: 60px;
+  height: 16px;
+  line-height: 16px;
+  padding: 0 3px;
+  margin: 0 0 2px 2px;
+  font-size: 9px;
+  border-radius: 3px;
+  overflow: visible;
+}
+
+body .list-card-details {
+  padding: 4px 8px;
+}
+
+/* display card id */
+body .card-short-id.hide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  height: 16px;
+  line-height: 16px;
+  padding: 0 3px;
+  font-weight: bold;
+  font-size: 11px;
+  background: gold;
+  border-radius: 3px 0;
+}
+
+body .has-cover .card-short-id.hide {
+  border-radius: 0 0 3px 0;
+}
+
+body .list-card-title {
+  margin: 16px 0 10px;
+}
+
+/* bottom edit link */
+body .list-card-operation {
+  top: auto;
+  right: -2px;
+  bottom: -2px;
+  padding: 1px;
+  border-radius: 3px;
+  box-shadow: 1px 1px rgba(0,0,0,.3), -1px -1px white;
+}
+
+body .list-card {
+  margin-top: 10px;
+}
+
+body .list-card:first-child {
+  margin-top: 2px;
+}
+
+/* display total cards count */
+body .list-header-num-cards.hide {
+  display: inline-block;
+  font-size: 11px;
+}
+
 /* [CardCounter for Trello](https://chrome.google.com/webstore/detail/cardcounter-for-trello/miejdnaildjcmahbhmfngfdoficmkdhi)s */
 .cardCounter {
 	font-size: 13px;
-
 	letter-spacing: 0px;
 	display: inline-block;
 	background: #E09952;
