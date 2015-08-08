@@ -282,7 +282,7 @@ function ListCard(el, identifier){
 		that=this,
 		busy=false,
 		$card=$(el),
-		$badge=$('<div class="badge badge-points point-count" style="background-image: url('+iconUrl+')"/>'),
+		$badge=$('<div class="badge badge-points point-count"/>'),
 		to,
 		to2;
 

@@ -4,12 +4,11 @@
   "description": "Theodo tools for Trello",
   "version": "0.0.1",
   "icons": {
-    "128": "images/trellodo.png"
+    "128": "trellodo.png"
   },
   "content_scripts": [ {
     "css": [ "trellodo.css" ],
     "js": [ "jquery-1.7.1.min.js", "trellodo.js" ],
     "matches": [ "https://trello.com/*" ]
-  } ],
-  "web_accessible_resources": [ "images/notsoshitty.ico", "images/storypoints-icon.png", "images/points-done.png", "images/burndown_for_trello_icon_12x12.png", "images/burndown_for_trello_icon_18x18.png", "images/trellodo-12x12.png", "images/trellodo-18x18.png" ]
+  } ]
 }

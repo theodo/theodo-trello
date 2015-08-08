@@ -122,16 +122,19 @@ body .list-header-num-cards.hide {
 
 .badge-points {
 	background-color: #006580 !important;
-	border-color: #005b72 !important;
-	border-bottom-color: #004b5f !important;
 	color: #e1fafb !important;
 	float: right;
 	font-size: 11px;
 	line-height: 16px;
-	text-align: right;
-	background-repeat: no-repeat !important;
-	background-position: 3px 3px !important;
-	padding: 0 4px 0 17px !important;
+	padding: 0 4px!important;
+}
+
+.badge-points:empty {
+	display: none;
+}
+
+.badge-points.consumed{
+	opacity: 0.5;
 }
 
 .picker-consumed,
@@ -162,12 +165,4 @@ body .list-header-num-cards.hide {
 	color: white;
 	font-weight:bold;
 	cursor: pointer;
-}
-
-.badge-points:empty {
-	display: none;
-}
-
-.badge-points.consumed{
-	opacity: 0.5;
 }

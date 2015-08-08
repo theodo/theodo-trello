@@ -23,8 +23,23 @@ rm -rf trellodo/_metadata
 # Click on "Load unpacked extension..."
 # Select folder "trellodo"
 ### TODO, find commandline: google-chrome --load-extension=trellodo // man google-chrome
+
+# Step 3 - Publish
+# Publisher: vbrajon@gmail.com
+# PublisherId: g18148662195242619108
+zip -r trellodo.zip trellodo
+# Logo
+128x128 with ~16px transparent padding
+# Screenshots
+1280x800
+440x280
+920x680
+1400x560
 ```
 
 ## Quick links
 
+- [Developer URL](https://chrome.google.com/webstore/developer/update?publisherId=g18148662195242619108)
+- [Store URL](https://chrome.google.com/webstore/detail/trellodo/fjmjaedigjejaeibggklknakjnaeknig)
 - [Extensions GetStarted](https://developer.chrome.com/extensions/getstarted)
+- [Webstore Publish](https://developer.chrome.com/webstore/publish)
