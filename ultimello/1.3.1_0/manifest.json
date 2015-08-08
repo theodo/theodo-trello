@@ -1,0 +1,33 @@
+{
+   "background": {
+      "scripts": [ "ultimello.background-script.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "ultimello-icon.png",
+         "38": "ultimello-icon64.png"
+      }
+   },
+   "content_scripts": [ {
+      "css": [ "ultimello.css" ],
+      "js": [ "ultimello.js" ],
+      "matches": [ "https://trello.com/*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "Extension that adds a lot of useful features to Trello",
+   "icons": {
+      "128": "ultimello-icon64.png",
+      "16": "ultimello-icon.png",
+      "48": "ultimello-icon64.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCMHbYLwj176Io3jAvcNriB7bEXwTjh1F91RJ308QB86resvSJwN1uCHUVTUrncNMQtyVpEQbG46Oqt8lBS4hsyhAh9+ThnuqEQt+lj71xhEaTMCmKQEb06HHZjUKQPaXf8uXR9vrQDcJb0EY5DjuZOT47pfvHxAEGGMMaZe2MKGwIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "24",
+   "name": "Ultimello, the features pack for Trello",
+   "options_page": "settings.html",
+   "permissions": [ "webRequest", "https://trello.com/*", "https://trello.com/1/authorize", "https://api.trello.com/*" ],
+   "short_name": "Ultimello",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.3.1",
+   "web_accessible_resources": [ "font/fontello.woff", "font/fontello.ttf", "font/fontello.svg", "font/fontello.eot", "settings.html" ]
+}

@@ -1,0 +1,18 @@
+{
+   "content_scripts": [ {
+      "css": [ "trelloscrum.css" ],
+      "js": [ "jquery-1.7.1.min.js", "trelloscrum.js" ],
+      "matches": [ "https://trello.com/*" ]
+   } ],
+   "description": "Adds Scrum to your Trello",
+   "icons": {
+      "128": "trello-scrum-icon.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCncf1bgsif8r5dB+RhZsL1qSwPFC/VvxUGydRf9TbFX6oyzgGPhWT40Op5ke3+U53+xilwRxKKClgiILBEZSM58s9BQRm6pYEdxKFKoZTRLg65/vlutRf2YL8cqUFks3uST2hAYblzo+p8+PC9Yq+kAjqub6Q/IsQyU6zqrBBQZwIDAQAB",
+   "manifest_version": 2,
+   "name": "Scrum for Trello",
+   "permissions": [ "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.92",
+   "web_accessible_resources": [ "images/storypoints-icon.png", "images/points-done.png", "images/burndown_for_trello_icon_12x12.png", "images/burndown_for_trello_icon_18x18.png", "images/trellodo-12x12.png", "images/trellodo-18x18.png" ]
+}

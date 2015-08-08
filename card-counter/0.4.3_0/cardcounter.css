@@ -1,0 +1,17 @@
+.cardCounter {
+	font-size: 13px;
+
+	letter-spacing: 0px;
+	display: inline-block;
+	background: #E09952;
+	color: #FFF;
+	padding: 0px 4px;
+	border-radius: 3px;	
+	font-weight: bold;
+	float: right;
+	margin: 1px 2px 0 2px;
+}
+
+.cardCounter.limitReached {
+	background: #BD2828;  
+}
