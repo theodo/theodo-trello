@@ -72,6 +72,10 @@ body .list-header-num-cards.hide {
   font-size: 11px;
 }
 
+.card-label {
+  text-shadow: none!important;
+}
+
 /* [CardCounter for Trello](https://chrome.google.com/webstore/detail/cardcounter-for-trello/miejdnaildjcmahbhmfngfdoficmkdhi)s */
 .cardCounter {
 	font-size: 13px;
