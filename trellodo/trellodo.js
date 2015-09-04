@@ -299,7 +299,7 @@ function ListCard(el, identifier){
 		to = setTimeout(function(){
 			var $title=$card.find('a.list-card-title');
 			if(!$title[0])return;
-			var titleTextContent = $title[0].textContent;
+			var titleTextContent = $title[0].childNodes[1].textContent;
 			if(titleTextContent) el._title = titleTextContent;
 
 			// Get the stripped-down (parsed) version without the estimates, that was stored after the last change.
